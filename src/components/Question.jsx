@@ -81,7 +81,7 @@ const Question = ({ question, onAnswer, currentNumber, total, onPrevious, previo
         <div className="mt-6 pt-4 border-t border-gray-200">
           <div className="flex items-center justify-between text-sm text-gray-500">
             <span>Level: {question.difficulty_level || 'Not specified'}</span>
-            <span>Created: {new Date(question.created_at).toLocaleDateString()}</span>
+           
             {question.tag && <span>Tag: {question.tag}</span>}
           </div>
         </div>
